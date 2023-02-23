@@ -9,28 +9,29 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" async integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" async integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-dark">
             <div class="container-fluid">
-              <a href="#"><img src="./img/juan-valde_3_0.png" class="h-25"></a><a class="navbar-brand fs-1 ms-lg-4 text-danger" href="#">Juan Valdéz</a>
+              <a href="#"><img src="./img/juan-valde_3_0.png" class="h-25"></a><a class="navbar-brand fs-1 ms-lg-4 text-danger" href="#">Juan Valdéz®</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon bg-danger"></span>
               </button>
               <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end pe-4" id="navbarNav">
                 <ul class="navbar-nav text-center ">
                   <li class="nav-item">
-                    <a class="nav-link active fs-2 text-danger" aria-current="page" href="#">Menu 1</a>
+                    <a class="nav-link active fs-1" aria-current="page" href="#" id="nos"><em>Nosotros</em></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link fs-2 text-danger" href="#">Menu 2</a>
+                    <a class="nav-link fs-1" href="#" id="nos"><em>Productos</em></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link fs-2 text-danger" href="#">Menu 3</a>
+                    <a class="nav-link fs-1" href="#" id="nos"><em>Sedes</em></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link fs-2 text-danger" href="#">Menu 4</a>
+                    <a class="nav-link fs-1" href="#" id="nos">Contactanos</a>
                   </li>
                 </ul>
               </div>
@@ -39,26 +40,27 @@
     </header>
     <main>
         <section>
-            <div class="container-fluid">
+            <div class="container-fluid p">
                 <div class="row gy-5 row-cols-1 row-cols-lg-2">
                     <div class="col col-lg ">
-                        <h1 class="text-center">Ron Juan Valdez 8 Años 750ml</h1>
-                        <div class="overflow-auto h-75 border rounded p-2 bg-secondary text-white">
-                            <p>"El exceso de alcohol es perjudicial para la salud. Ley 30 de 1986. Prohíbase el expendio de bebidas embriagantes a menores de edad ley 124 1994"</p>
-                            <p>Ron Juan Valdez 8 Años, botella de diseño vanguardista de paisajes colombianos, fabricada con vidrio blanco de altísima calidad y decorada con pintura orgánica, 100% reciclable.</p>
-                            <p>Ron infusión que combina las bondades del mejor café del mundo con la nobleza de un ron de ocho años de añejamiento natural en barricas de roble blanco americano. De esta asociación entre dos grandes expertos nace el Ron Juan Valdez, suave, equilibrado y versátil, con profundas notas amaderadas que se puede disfrutar por sí solo, sobre hielo o en coctelería, sin perder las características del ron y café que lo componen.</p>
+                        <h1 class="text-center"><strong>Nuestra Historia <span class="text-white">Juan Valdéz®</span></strong></h1>
+                        <div class="leyenda overflow-auto h-75 border rounded p-2 text-white">
+                            <br><p class="text-danger"><strong>Juan Valdez® Café is the #1 brand of Premium Colombian Coffee. On December 12, 2002 the first Juan Valdez® Café store opened its doors at El Dorado International Airport in Bogotá.</strong></p><br>
+                            <p><strong>This was the beginning of a process that intended to introduce more and more people to Premium Colombian Coffee.</strong></p><br>
+                            <p><strong>It has represented the heart and soul of Colombian coffee growers around the world, and has continued growing by generating experiences throughout its specialized coffee shops</strong></p><br>
+                            <p><strong>Since the creation of the Juan Valdez® character in 1959, the icon has represented and promoted Colombian coffee globally, positioning and differentiating it from other coffees.</strong></p>
                         </div>
-                        <a href="https://articulo.mercadolibre.com.co/MCO-802242125-ron-juan-valdez-8-anos-750ml-_JM" class="mt-4 btn btn-outline-danger" target="_blank">Comprar</a>
+                        <a href="https://megaahorro.online/producto/cafe-juan-valdez-190gr/" class="mt-4 btn btn-danger d-grid gap-2" target="_blank">Comprar</a>
                     </div>
                     <div class="col col-lg h-50 mt-0 mt-lg-5 pt-lg-2">
                         <div class="border rounded w-100 py-3" style="height: 550px;">
-                            <img src="img/cafe.webp" class="w-100 h-100" style="object-fit: scale-down;">
+                            <img src="./img/juan-valdez.png" class="w-100 h-100" id="imgchange" style="object-fit: scale-down;">
                         </div>
-                        <div class="d-flex  mt-3 justify-content-evenly">
-                            <div class="bg-primary p-3 rounded-circle">1</div>
-                            <div class="bg-primary p-3 rounded-circle">2</div>
-                            <div class="bg-primary p-3 rounded-circle">3</div>
-                            <div class="bg-primary p-3 rounded-circle">4</div>
+                        <div class="d-flex  mt-3 justify-content-evenly ">
+                            <div class="bt p-3 border rounded-circle" id="obtn"><img src="./img/NEVADO_AREQUIPE_300ML.png" class="w-100 h-100" style="object-fit: scale-down;" alt=""></div>
+                            <div class="bt p-3 border rounded-circle" id="tbtn"><img src="./img/COVA-000049414_21042307472201.png" class="w-100 h-100 text-center" style="object-fit: scale-down;"  alt=""></div>
+                            <div class="bt p-3 border rounded-circle" id="trbtn"><img src="./img/COVA-000049415_21042307474900.png" class="w-100 h-100" style="object-fit: scale-down;" alt=""></div>
+                            <div class="bt p-3 border rounded-circle" id="fbtn"><img src="./img/Nariño-454-gr.png" class="w-100 h-100" style="object-fit: scale-down;" alt=""></div>
                         </div>
                     </div>
                     <div class="col col-lg mt-3 position-absolute top-0 end-0 bg-primary">
@@ -74,11 +76,12 @@
         </section>
     </main>
     <footer>
-        <div class="container-fluid border mt-3">
+        <div class="container-fluid border mt-3 pt-0">
             <div class="row">
-                <div class="col text-center fs-5">Copyright derechos reservados Campus 2023</div>
+                <div class="col text-center fs-5 bg-dark text-white"><em>©Copyright derechos reservados Campus 2023</em></div>
             </div>
         </div>
     </footer>
+<script src="./script.js"></script>
 </body>
 </html>

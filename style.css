@@ -1,0 +1,23 @@
+main{
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./img/maxresdefault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0%;
+}
+.leyenda{
+    background-color: rgba(0, 0, 0, 0.703);
+}
+.bt{
+    background-color: rgba(219, 108, 4, 0.635);
+}
+#nos{
+    color: darkred;
+}
+#nos:hover{
+    border-radius: 5px;
+    background-color: rgba(139, 0, 0, 0.37);
+    color: rgba(219, 108, 4, 0.635);
+}
+#obtn:hover, #tbtn:hover,:hover #trbtn:hover, #fbtn:hover{
+    background-color: rgba(219, 108, 4, 0.916);
+}
