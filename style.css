@@ -11,7 +11,7 @@ main{
     background-color: rgba(219, 108, 4, 0.635);
 }
 #nos{
-    color: darkred;
+    color: rgb(156, 1, 1);
 }
 #nos:hover{
     border-radius: 5px;
