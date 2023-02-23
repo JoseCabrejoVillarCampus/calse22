@@ -20,3 +20,9 @@ fbtn.onclick=function(){
 
     imgchange.src="./img/Nariño-454-gr.png";
 }
+$('.botonF1').hover(function(){
+    $('.btn').addClass('animacionVer');
+})
+$('.contenedor').mouseleave(function(){
+    $('.btn').removeClass('animacionVer');
+})
